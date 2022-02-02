@@ -16,7 +16,7 @@ int menu(void){
   cout<<"\n2. Ver Clientes Registrados";
   cout<<"\n3. Crear Inventario";
   cout<<"\n4. Ver Inventario";
-  cout<<"\n5. Vender un Producto;
+  cout<<"\n5. Vender un Producto";
   cout<<"\n6. Salir";
   cout<<"Ingrese su opción: ";
 }
