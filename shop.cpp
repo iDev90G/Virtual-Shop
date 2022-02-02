@@ -29,7 +29,21 @@ int main(){
   float id[50], tel[50], precio_producto[50], codigo[50];
   
   do {
-    /*menu*/
-    /*switch*/
+    menu();
+    cin>>opcion;
+    
+    switch (opcion) {
+      case 1:
+       i++;
+       cout<<"\nIngrese el Nombre del nuevo Cliente: ";
+       cin>>nombre_cliente[i];
+       cout<<"\nIngrese el ID del nuevo Cliente\n*Sin espacios ni guiones: ";
+       cin>>id[i];
+       cout<<"\nIngrese el numero telefónico del nuevo Cliente\n*Sin espacios ni guiones: "
+       cin>>tel[i];
+       cout<<"\nIngrese 0 para volver al menú o 1 para salir: ";
+       cin>>opc2;
+       break;
+    }
   }
 }
