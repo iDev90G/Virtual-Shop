@@ -44,6 +44,12 @@ int main(){
        cout<<"\nIngrese 0 para volver al menú o 1 para salir: ";
        cin>>opc2;
        break;
+       
+       case 2:
+       for (i = 1, i < max,i++ {
+         cout<<"\nNombre del Cliente: "<<nombre_cliente[i]<<endl;
+         cout<<setprecision(0)<<fixed<<"\nNumero de ID del Cliente: "<<id[i]<<endl;
+       }
     }
   }
 }
