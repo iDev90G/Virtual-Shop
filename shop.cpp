@@ -53,6 +53,8 @@ int main(){
        cout<<"\nIngrese 1 para volver al menú y 0 para salir: ";
        cin>>opc2;
        break;
+       
+       case 3:
     }
   }
 }
