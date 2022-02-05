@@ -41,7 +41,7 @@ int main(){
        cin>>id[i];
        cout<<"\nIngrese el numero telefónico del nuevo Cliente\n*Sin espacios ni guiones: "
        cin>>tel[i];
-       cout<<"\nIngrese 0 para volver al menú o 1 para salir: ";
+       cout<<"\nIngrese 1 para volver al menú o 0 para salir: ";
        cin>>opc2;
        break;
        
@@ -50,6 +50,7 @@ int main(){
          cout<<"\nNombre del Cliente: "<<nombre_cliente[i]<<endl;
          cout<<setprecision(0)<<fixed<<"\nNumero de ID del Cliente: "<<id[i]<<endl;
        }
+       cout<<"\nIngrese 1 para volver al menú y 0 para salir: "
     }
   }
 }
