@@ -50,7 +50,9 @@ int main(){
          cout<<"\nNombre del Cliente: "<<nombre_cliente[i]<<endl;
          cout<<setprecision(0)<<fixed<<"\nNumero de ID del Cliente: "<<id[i]<<endl;
        }
-       cout<<"\nIngrese 1 para volver al menú y 0 para salir: "
+       cout<<"\nIngrese 1 para volver al menú y 0 para salir: ";
+       cin>>opc2;
+       break;
     }
   }
 }
