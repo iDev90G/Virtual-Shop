@@ -58,7 +58,7 @@ int main(){
        a++;
        cout<<"\nIngrese el Nombre del Producto:";
        cin>>nombre_producto[a];
-       cout<<"\nIngrese el Código del Producto;
+       cout<<"\nIngrese el Código del Producto";
        cin>>codigo[a];
        cout<<"\nIngrese el Precio del Producto: ";
        cin>>precio_producto[a];
